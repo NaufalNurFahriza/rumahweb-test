@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const UserList = () => {
+const User = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -28,4 +28,4 @@ const UserList = () => {
   );
 };
 
-export default UserList;
+export default User;

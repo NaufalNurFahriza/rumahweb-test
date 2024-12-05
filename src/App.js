@@ -1,13 +1,19 @@
 import React from "react";
-import UserList from "./components/userList";
-import ContactForm from "./components/contactForm";
+import LoginForm from "./components/LoginForm";
+import Pagination from "./components/Pagination";
+import User from "./components/User";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
-      <UserList />
+      <User/>
       <hr />
-      <ContactForm />
+      <Contact/>
+      <hr />
+      <Pagination/>
+      <hr />
+      <LoginForm/>
     </div>
   );
 }
